@@ -4,7 +4,7 @@
 Name:          %{?scl_prefix}msv
 Epoch:         1
 Version:       2013.6.1
-Release:       9.1%{?dist}
+Release:       9.2%{?dist}
 Summary:       Multi-Schema Validator
 License:       BSD and ASL 1.1
 URL:           http://msv.java.net/
@@ -212,6 +212,9 @@ cp -pr xsdlib/examples/* %{buildroot}%{_datadir}/%{pkg_name}/xsdlib
 %{_datadir}/%{pkg_name}
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1:2013.6.1-9.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1:2013.6.1-9.1
 - Automated package import and SCL-ization
 
